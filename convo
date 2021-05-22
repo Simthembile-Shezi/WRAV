@@ -1,1 +1,6 @@
 Abi: where do we start?
+Sim : public void registerApps(string DevelopedFileName, string OnceOffFileName, string DistributedFileName)
+        /* pre:  Have names of files containing data for once-off, distributed and other developed apps.
+         * post: Process files placing all apps at the end of Developed list of apps, ensuring that no duplicate apps are added. 
+         *       Order of processed files is other developed apps, once-off and then distributed. */
+      
